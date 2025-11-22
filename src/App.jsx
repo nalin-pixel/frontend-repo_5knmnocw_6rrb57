@@ -1,4 +1,5 @@
 import { useRef } from 'react'
+import Header from './components/Header'
 import Hero from './components/Hero'
 import Calculator from './components/Calculator'
 import HowTo from './components/HowTo'
@@ -13,7 +14,8 @@ function App() {
   }
 
   return (
-    <div className="min-h-screen bg-gradient-to-b from-white to-slate-50 text-slate-900">
+    <div id="top" className="min-h-screen bg-gradient-to-b from-white to-slate-50 text-slate-900">
+      <Header onCalcClick={scrollToCalc} />
       <Hero onCTAClick={scrollToCalc} />
 
       <main className="relative z-10 -mt-6 md:-mt-10">

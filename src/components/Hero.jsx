@@ -13,17 +13,17 @@ function Hero({ onCTAClick }) {
       <div className="relative container mx-auto px-4 py-16 md:py-24">
         <div className="max-w-3xl">
           <h1 className="text-4xl md:text-6xl font-extrabold tracking-tight text-slate-900">
-            E‑commerce Profit Calculator
+            Temu & Shein Profit Calculator
           </h1>
           <p className="mt-4 text-lg md:text-xl text-slate-700">
-            Quickly estimate your true profit on Temu and Shein. Enter your costs, pick a platform, and see your net profit and margins instantly.
+            Real-time Temu and Shein profit calculator. Enter product cost, shipping, and price to calculate platform fee, net profit, and margin instantly.
           </p>
           <div className="mt-8 flex flex-col sm:flex-row gap-3 sm:gap-4">
             <button onClick={onCTAClick} className="inline-flex items-center justify-center rounded-xl bg-emerald-500 hover:bg-emerald-600 text-white font-semibold px-6 py-3 shadow-lg shadow-emerald-500/20 transition">
               Start Calculating Now
             </button>
             <a href="#how-to" className="inline-flex items-center justify-center rounded-xl bg-white/80 hover:bg-white text-slate-900 font-semibold px-6 py-3 border border-slate-200 backdrop-blur-md transition">
-              Learn how to increase profit
+              Learn Temu & Shein profit tips
             </a>
           </div>
         </div>
